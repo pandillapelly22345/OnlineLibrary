@@ -1,0 +1,18 @@
+use learnify;
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY not null,
+    first_name VARCHAR(255) NOT NULL,
+    last_name VARCHAR(255),
+    email VARCHAR(255) NOT NULL UNIQUE,
+    phone_number VARCHAR(255) NOT NULL,
+    passwords VARCHAR(255) NOT NULL,
+    house_no int,
+    street varchar(255),
+    city varchar(255),
+    country varchar(255),
+    pincode varchar(255)
+);
+
+select * from users;
+select * from loginuser;

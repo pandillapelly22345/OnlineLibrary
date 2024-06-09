@@ -1,0 +1,473 @@
+*{
+    margin: 0%;
+    font-family: Arial;
+    border: border-box;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(215, 20, 114);
+}
+
+li{
+    list-style: none;
+    padding: 0 12px;
+}
+
+ul { 
+    list-style:none; 
+    padding-left:0; 
+}
+
+.navbar{
+    height: 70px;
+    background-color: #202428;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 84px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.logo{
+    background-image: url("/images/logo.png");
+    background-size: cover;
+    height: 60px;
+    width: 100%;
+}
+
+/* box2 */
+
+.navlist {
+    display: flex;
+    padding: 0; /* Remove default padding */
+    margin: 0;
+}
+
+.harsh{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.navbar li a{
+    font-size: 17px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+/* box3 */
+.nav-search{
+    display: flex;
+    background-color: rgba(221, 21, 124, 0.901);
+    width: 30%;
+    height: 35px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    border: 2px solid;
+    margin-left: 620px;
+}
+
+.nav-search:hover{
+    border: 2px solid rgba(221, 21, 124, 0.901);
+}
+
+.search-select{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #202428;
+}
+
+
+/* pannel */
+
+.pannel{
+    height: 40px;
+    background-color: #303b45;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.pannel-deals{
+    font-weight: 700;
+}
+
+.contents{
+    display: flex;
+    
+}
+
+.contents li a {
+    text-decoration: none; /* Remove underline from links */
+}
+
+.pannel li a{
+    font-size: 15px;
+    /* font-weight: 600; */
+    transition: 0.3s ease;
+}
+
+/* Hero section */
+
+.hero-section{
+    background-image: url("/images/newnew.png");
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-section h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: #dddddd;
+}
+
+.hero-section p{
+    font-size: 16px;
+    color: #dde5e2;
+    margin: 15px 0 20px 0;
+}
+
+/* collections */
+
+.collection{
+    height: 600px;
+    background: rgb(36,11,23);
+    background: linear-gradient(90deg, rgba(36,11,23,1) 0%, rgba(12,18,36,1) 47%, rgba(6,6,18,1) 100%);
+    display: flex;
+    align-items: center;
+    color: #dddddd; 
+    padding: 0 80px;
+}
+
+.firstcol{
+    
+}
+
+.firstcol h4{
+    font-size: 20px;
+}
+
+.firstcol h2{
+    font-size: 46px;
+    line-height: 54px;
+}
+
+.firstcol h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: #bb82b2;
+}
+
+.firstcol p{
+    font-size: 16px;
+    color: #dde5e2;
+    margin: 15px 0 20px 0;
+}
+
+.firstcol button{
+    background-image: url("/images/button.png");
+    background-color: transparent;
+    color: white;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+
+.firstphoto{
+    background-image: url("/images/1book.jpg");
+    background-size: cover;
+    background-color: #bb82b2;
+    height: 450px;
+    width: 340px;
+    border-radius: 4px;
+    margin-left: 200px;
+    border: 3px solid white;
+    animation: change 20s infinite step-start;
+}
+
+@keyframes change{
+    0%
+    {
+        background-image: url("/images/nov2.jpg");
+    }
+    20%
+    {
+        background-image: url("/images/nov3.jpg");
+    }
+    40%
+    {
+        background-image: url("/images/nov4.webp");
+    }
+    60%
+    {
+        background-image: url("/images/nov5.jpg");
+    }
+    80%
+    {
+        background-image: url("/images/nov6.jpg");
+    }
+    100%
+    {
+        background-image: url("/images/nov7.webp");
+    }
+}
+
+.secondphoto{
+    background-image: url("/images/bio1.jpg");
+    background-size: cover;
+    background-color: #bb82b2;
+    border-radius: 4px;
+    height: 450px;
+    width: 340px;
+    margin-left: 60px;
+    border: 3px solid white;
+    animation: change1 20s infinite step-start;
+}
+
+@keyframes change1{
+    0%
+    {
+        background-image: url("/images/bio1.jpg");
+    }
+    20%
+    {
+        background-image: url("/images/bio2.jpg");
+    }
+    40%
+    {
+        background-image: url("/images/bio3.jpg");
+    }
+    60%
+    {
+        background-image: url("/images/bio4.jpeg");
+    }
+    80%
+    {
+        background-image: url("/images/bio5.jpeg");
+    }
+    100%
+    {
+        background-image: url("/images/bio6.webp");
+    }
+}
+
+/* box message */
+
+.boxmess{
+    background: rgb(36,11,23);
+    background: linear-gradient(90deg, rgba(36,11,23,1) 0%, rgba(12,18,36,1) 47%, rgba(6,6,18,1) 100%);
+    text-align: center;
+    color: #dddddd; 
+    padding: 0 80px;
+}
+
+.boxmess h1{
+    font-size: 50px;
+    line-height: 64px;
+}
+
+.boxmess p{
+    font-size: 16px;
+    color: #dde5e2;
+    padding: 15px 0 20px 0;
+}
+
+/* shop seection */
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background: rgb(36,11,23);
+    background: linear-gradient(90deg, rgba(36,11,23,1) 0%, rgba(12,18,36,1) 47%, rgba(6,6,18,1) 100%);
+    padding-bottom: 150px;
+}
+
+.box{
+    /* border: 2px solid black; */
+    background-color: rgba(255, 255, 255, 0.901);
+    margin-top: 50px;
+    padding: 20px 0px 15px;
+    height: 400px;
+    width: 21%;
+    border-radius: 4px;
+}
+
+.box-img{
+    height: 330px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p{
+    color: #007185;
+}
+
+/* footer */
+.foot-panel1{
+    background-color: #303b45;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel2{
+    background-color: #202428;
+    color: white;
+    height: 325px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot-panel2 ul{
+    margin-top: 30px;
+}
+
+.foot-panel2 ul p{
+    font-weight: 600;
+}
+
+.foot-panel2 ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+    text-decoration: none;
+}
+
+.foot-panel2 ul a:hover{
+    color: palevioletred;
+}
+
+.foot-panel3{
+    background-color: #202428;
+    color: #dddddd;
+    border-top: 0.07px solid white;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("/images/logo.png");
+    background-size: cover;
+    height: 60px;
+    width: 85px
+}
+
+.sele{
+    height: 30px;
+    width: 100px;
+    background-color: #202428;
+    color: #dddddd;
+    border: 1px solid white;
+}
+
+.choices{
+    padding-left: 90px;
+}
+
+.foot-panel4{
+    background-color: #1d1e1f;
+    color: #dddddd;
+    height: 76px;
+}
+
+.pages{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.copyright{
+    padding-top: 5px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.contents li{
+    display: inline-block;
+    position: relative;
+    padding: 0px 2px;
+}
+
+.contents li a{
+    display: block;
+    padding: 10px 10px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+}
+
+.contents li ul.dropdown li{
+    display: block;
+}
+
+.contents li ul.dropdown{
+    width: 200px;
+    background-color: #202428;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    transition: 0.3s ease;
+}
+
+.contents li a:hover{
+    background: #202428;
+    color: rgb(215, 20, 114);
+}
+
+.contents li:hover ul.dropdown{
+    display: block;
+}

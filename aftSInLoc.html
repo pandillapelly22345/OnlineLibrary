@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <div class="container" id="signup">
+        <h1 class="form-title">Add Address</h1>
+        <form method= "post" action="">
+            <div class="input-group">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="number" name="housenumber" id="housenumber" placeholder="House Number" required>
+                <label for="housenumber"> House Number</label>
+            </div>
+            <div class="input-group">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text" name="street" id="street" placeholder="Street" required>
+                <label for="street">Street</label>
+            </div>
+            <div class="input-group">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text" name="city" id="city" placeholder="City" required>
+                <label for="city">City</label>
+            </div>
+
+            <div class="input-group">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text" name="country" id="country" placeholder="Country" required>
+                <label for="country">Country</label>
+            </div>
+
+            <div class="input-group">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="number" name="pincode" id="pincode" placeholder="Pincode" required>
+                <label for="pincode">Pincode</label>
+            </div>
+            <input type="submit" class="btn" value="add address" name="Sign Up">
+        </form>
+        
+    </div>
+</body>
+</html>
